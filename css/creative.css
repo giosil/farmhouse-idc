@@ -405,6 +405,25 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+/* dew */
+.nav-tabs > li {
+  float:none;
+  display:inline-block;
+}
+.nav-tabs {
+  text-align:center;
+}
+.nav-tabs > li > a {
+  color: #dddddd;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid #dddddd;
+  border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a:hover {
+  color: #f05f40;
+  border-color: #eee #eee #ddd;
+}
 .map-responsive{
   overflow:hidden;
   padding-bottom:38%;

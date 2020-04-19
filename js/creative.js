@@ -75,7 +75,7 @@
         }
     });
 
-    $('#routeP').magnificPopup({
+    $('#route1').magnificPopup({
         delegate: 'a',
         type: 'image',
         tLoading: 'Loading image #%curr%...',
@@ -90,7 +90,7 @@
         }
     });
 
-    $('#routeT').magnificPopup({
+    $('#route2').magnificPopup({
         delegate: 'a',
         type: 'image',
         tLoading: 'Loading image #%curr%...',
@@ -105,7 +105,7 @@
         }
     });
 
-    $('#routeM').magnificPopup({
+    $('#route3').magnificPopup({
         delegate: 'a',
         type: 'image',
         tLoading: 'Loading image #%curr%...',

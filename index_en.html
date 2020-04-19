@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/creative.css?20200418" type="text/css">
+  <link rel="stylesheet" href="css/creative.css?20200419" type="text/css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -81,118 +81,137 @@
   </header>
   <section class="bg-primary" id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 map-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10218.064216092816!2d12.813077211271741!3d37.87145316662545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2e526ed07be3cab!2sIn%20Sicilia%20da%20Ciro!5e0!3m2!1sit!2sit!4v1587281817388!5m2!1sit!2sit" width="600" height="400" frameborder="0" style="border:0;" aria-hidden="false" allowfullscreen></iframe>
-        </div>
-        <div class="col-lg-6 text-center">
-          <h2 class="section-heading">Ciro's Farmhouse</h2>
-          <hr class="light">
-          <p class="text-faded">
-          It is located nearby the village of Vita, in Contrada Auro Roccone, on the provincial road number 44 between Makani's forest and the highest part of the historical center of Vita as far as 50 meters from the intersection with Via Grazia and farm road for Contrada Makani.<br>
-          At just over 500 meters of altitude it offers a panoramic allocation over the territory of the province of Trapani and Palermo, in the middle of Trapani's province; It is 35 km away from Trapani, approximately the same distance from the other major municipalities of the territory: Alcamo, Castelvetrano, Marsala, 45Km from Mazara del Vallo; 7km from Salemi; 90Km from Palermo.<br>
-          The location offers a panoramic view together with a quiet and peaceful environment.
-          </p>
-          <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Services</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 text-center">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#tabRoute0">How to get</a></li>
+        <li><a data-toggle="tab" href="#tabRoute1" style="min-width: 270px">Easier route from Palermo</a></li>
+        <li><a data-toggle="tab" href="#tabRoute2" style="min-width: 270px">Easier route from Trapani</a></li>
+        <li><a data-toggle="tab" href="#tabRoute3" style="min-width: 270px">Easier route from Mazara</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="tabRoute0" class="tab-pane fade in active">
           <br>
-          <h2 class="section-heading">Easier route from Palermo</h2>
-          <br>
+          <div class="row">
+            <div class="col-lg-6 map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10218.064216092816!2d12.813077211271741!3d37.87145316662545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2e526ed07be3cab!2sIn%20Sicilia%20da%20Ciro!5e0!3m2!1sit!2sit!4v1587281817388!5m2!1sit!2sit" width="600" height="400" frameborder="0" style="border:0;" aria-hidden="false" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 text-center">
+              <h2 class="section-heading">Ciro's Farmhouse</h2>
+              <hr class="light">
+              <p class="text-faded">
+                It is located nearby the village of Vita, in Contrada Auro Roccone, on the provincial road number 44 between Makani's forest and the highest part of the historical center of Vita as far as 50 meters from the intersection with Via Grazia and farm road for Contrada Makani.<br>
+                <br>
+                At just over 500 meters of altitude it offers a panoramic allocation over the territory of the province of Trapani and Palermo, in the middle of Trapani's province; It is 35 km away from Trapani, approximately the same distance from the other major municipalities of the territory: Alcamo, Castelvetrano, Marsala, 45Km from Mazara del Vallo; 7km from Salemi; 90Km from Palermo.<br>
+                <br>
+                The location offers a panoramic view together with a quiet and peaceful environment.
+              </p>
+              <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Services</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row" id="routeP">
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/P1.jpg"><img src="img/routes/_P1.jpg" class="img-responsive"></a>
-          <strong>1.</strong> Take highway to Trapani
+        <div id="tabRoute1" class="tab-pane fade">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <br>
+              <h2 class="section-heading">Easier route from Palermo</h2>
+              <br>
+            </div>
+          </div>
+          <div class="row" id="route1">
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/P1.jpg"><img src="img/routes/_P1.jpg" class="img-responsive"></a>
+              <strong>1.</strong> Take highway to Trapani
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/P2.jpg"><img src="img/routes/_P2.jpg" class="img-responsive"></a>
+              <strong>2.</strong> Exit to Segesta direction Calatafimi
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/P3.jpg"><img src="img/routes/_P3.jpg" class="img-responsive"></a>
+              <strong>3.</strong> At crossroad of Calatafimi take for Vita
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/P4.jpg"><img src="img/routes/_P4.jpg" class="img-responsive"></a>
+              <strong>4.</strong> Exit from SS 113 to Vita (SS 188)
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/P5.jpg"><img src="img/routes/_P5.jpg" class="img-responsive"></a>
+              <strong>5.</strong> Continue to Vita Center
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/P6.jpg"><img src="img/routes/_P6.jpg" class="img-responsive"></a>
+              <strong>6.</strong> Crossed Vita take for Domingo
+            </div>
+          </div>
         </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/P2.jpg"><img src="img/routes/_P2.jpg" class="img-responsive"></a>
-          <strong>2.</strong> Exit to Segesta direction Calatafimi
+        <div id="tabRoute2" class="tab-pane fade">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <br>
+              <h2 class="section-heading">Easier route from Trapani</h2>
+              <br>
+            </div>
+          </div>
+          <div class="row" id="route2">
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/T1.jpg"><img src="img/routes/_T1.jpg" class="img-responsive"></a>
+              <strong>1.</strong> Take highway to Palermo
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/T2.jpg"><img src="img/routes/_T2.jpg" class="img-responsive"></a>
+              <strong>2.</strong> Exit to Fulgatore
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/T3.jpg"><img src="img/routes/_T3.jpg" class="img-responsive"></a>
+              <strong>3.</strong> Continue to Ummari / Palermo
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/T4.jpg"><img src="img/routes/_T4.jpg" class="img-responsive"></a>
+              <strong>4.</strong> Exit from SS 113 to Vita (SS 188)
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/T5.jpg"><img src="img/routes/_T5.jpg" class="img-responsive"></a>
+              <strong>5.</strong> Continue to Vita Center
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/T6.jpg"><img src="img/routes/_T6.jpg" class="img-responsive"></a>
+              <strong>6.</strong> Crossed Vita take for Domingo
+            </div>
+          </div>
         </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/P3.jpg"><img src="img/routes/_P3.jpg" class="img-responsive"></a>
-          <strong>3.</strong> At crossroad of Calatafimi take for Vita
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/P4.jpg"><img src="img/routes/_P4.jpg" class="img-responsive"></a>
-          <strong>4.</strong> Exit from SS 113 to Vita (SS 188)
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/P5.jpg"><img src="img/routes/_P5.jpg" class="img-responsive"></a>
-          <strong>5.</strong> Direction Vita Center
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/P6.jpg"><img src="img/routes/_P6.jpg" class="img-responsive"></a>
-          <strong>6.</strong> Crossed Vita take for Domingo
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <br>
-          <h2 class="section-heading">Easier route from Trapani</h2>
-          <br>
-        </div>
-      </div>
-      <div class="row" id="routeT">
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/T1.jpg"><img src="img/routes/_T1.jpg" class="img-responsive"></a>
-          <strong>1.</strong> Take highway to Palermo
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/T2.jpg"><img src="img/routes/_T2.jpg" class="img-responsive"></a>
-          <strong>2.</strong> Exit to Fulgatore
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/T3.jpg"><img src="img/routes/_T3.jpg" class="img-responsive"></a>
-          <strong>3.</strong> Direction Ummari / Palermo
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/T4.jpg"><img src="img/routes/_T4.jpg" class="img-responsive"></a>
-          <strong>4.</strong> Exit from SS 113 to Vita (SS 188)
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/T5.jpg"><img src="img/routes/_T5.jpg" class="img-responsive"></a>
-          <strong>5.</strong> Direction Vita Center
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/T6.jpg"><img src="img/routes/_T6.jpg" class="img-responsive"></a>
-          <strong>6.</strong> Crossed Vita take for Domingo
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <br>
-          <h2 class="section-heading">Easier route from Mazara del Vallo</h2>
-          <br>
-        </div>
-      </div>
-      <div class="row" id="routeM">
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/M1.jpg"><img src="img/routes/_M1.jpg" class="img-responsive"></a>
-          <strong>1.</strong> Take highway to Palermo
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/M2.jpg"><img src="img/routes/_M2.jpg" class="img-responsive"></a>
-          <strong>2.</strong> Exit Salemi
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/M3.jpg"><img src="img/routes/_M3.jpg" class="img-responsive"></a>
-          <strong>3.</strong> Direction Salemi / Vita
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/M4.jpg"><img src="img/routes/_M4.jpg" class="img-responsive"></a>
-          <strong>4.</strong> Crossed Salemi take for Vita
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/M5.jpg"><img src="img/routes/_M5.jpg" class="img-responsive"></a>
-          <strong>5.</strong> Direction Vita Center
-        </div>
-        <div class="col-lg-4 text-center">
-          <a href="img/routes/M6.jpg"><img src="img/routes/_M6.jpg" class="img-responsive"></a>
-          <strong>6.</strong> At the crossroad take for Domingo
+        <div id="tabRoute3" class="tab-pane fade">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <br>
+              <h2 class="section-heading">Easier route from Mazara del Vallo</h2>
+              <br>
+            </div>
+          </div>
+          <div class="row" id="route3">
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/M1.jpg"><img src="img/routes/_M1.jpg" class="img-responsive"></a>
+              <strong>1.</strong> Take highway to Palermo
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/M2.jpg"><img src="img/routes/_M2.jpg" class="img-responsive"></a>
+              <strong>2.</strong> Exit Salemi
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/M3.jpg"><img src="img/routes/_M3.jpg" class="img-responsive"></a>
+              <strong>3.</strong> Continue to Salemi / Vita
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/M4.jpg"><img src="img/routes/_M4.jpg" class="img-responsive"></a>
+              <strong>4.</strong> Crossed Salemi take for Vita
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/M5.jpg"><img src="img/routes/_M5.jpg" class="img-responsive"></a>
+              <strong>5.</strong> Continue to Vita Centro
+            </div>
+            <div class="col-lg-4 text-center">
+              <a href="img/routes/M6.jpg"><img src="img/routes/_M6.jpg" class="img-responsive"></a>
+              <strong>6.</strong> At the crossroad take for Domingo
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -506,7 +525,7 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom Theme JavaScript -->
-  <script src="js/creative.js?20200418"></script>
+  <script src="js/creative.js?20200419"></script>
 
 </body>
 
