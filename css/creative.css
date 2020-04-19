@@ -406,6 +406,11 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 /* dew */
+.link-heading {
+  color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bold;
+}
 .nav-tabs > li {
   float:none;
   display:inline-block;
